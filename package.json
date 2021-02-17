@@ -1,5 +1,8 @@
 {
-  "name": "with-mongodb-mongoose",
+  "name": "neso-social-media-platform",
+  "description": "Social Media platform like vz.net, Facebook, Twitter or Instagram.",
+  "author": "Mariano Barrera, Benjamin Meier <meier.benjamin@web.de>",
+  "repository": "https://github.com/bennymeier/neso.git",
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
