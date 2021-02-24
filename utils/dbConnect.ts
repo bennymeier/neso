@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-require('dotenv').config()
+require('dotenv').config();
 
 async function dbConnect() {
   // check if we have a connection to the database or if it's currently
@@ -8,7 +8,7 @@ async function dbConnect() {
     return;
   }
 
-  return mongoose.connect(process.env.MONGODB_URI, {
+  return mongoose.connect(process.env.MONGODB_URI as string, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
